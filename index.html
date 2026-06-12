@@ -141,8 +141,11 @@
         </div>
       </div>
       <div class="hero-figure">
-        <div class="portrait-placeholder" role="img" aria-label="Placeholder monogram for Dr. Fayana Richards. A professional headshot will appear here.">
-          <span aria-hidden="true">FR</span>
+        <!-- PLACEHOLDER: headshot — drop the approved photo at /assets/img/headshot.jpg.
+             The FR monogram below is a fallback that displays only while the image is missing. -->
+        <div class="portrait-frame">
+          <img src="assets/img/headshot.jpg" alt="Dr. Fayana Richards" width="280" height="350" fetchpriority="high" decoding="async" onerror="this.classList.add('img-missing')">
+          <span class="portrait-fallback" aria-hidden="true">FR</span>
         </div>
       </div>
     </div>
@@ -257,37 +260,43 @@
     <div class="container">
       <h2 id="featured-heading">Featured Work</h2>
       <div class="card-grid card-grid-3">
-        <article class="card">
+        <article class="card work-cat-program">
+          <span class="work-cat-label">Consulting</span>
           <h3><a href="work/public-health-consulting/">Public Health Consulting and Program Coordination</a></h3>
           <p class="entry-meta">Michigan Public Health Institute &middot; Senior Public Health Consultant</p>
           <p>Led and coordinated multiple concurrent public health projects, advised clients on social justice programming, and supported partnerships, facilitation, and implementation.</p>
           <ul class="tag-list"><li>Program Management</li><li>Public Health</li><li>Facilitation</li></ul>
         </article>
-        <article class="card">
+        <article class="card work-cat-research">
+          <span class="work-cat-label">Research</span>
           <h3><a href="work/aging-caregiving-research/">Community-Engaged Research on Aging and Chronic Illness</a></h3>
           <p class="entry-meta">Michigan State University &middot; Doctoral Researcher</p>
           <p>Conducted approximately 18 months of field research on aging, caregiving, chronic illness, and health disparities among older Black women in Detroit.</p>
           <ul class="tag-list"><li>Research</li><li>Community Engagement</li><li>Public Health</li></ul>
         </article>
-        <article class="card">
+        <article class="card work-cat-program">
+          <span class="work-cat-label">Program Design</span>
           <h3><a href="work/research-development-program/">Research and Professional Development Program Design</a></h3>
           <p class="entry-meta">University of Massachusetts Amherst &middot; Post-Doctoral Research Associate</p>
           <p>Helped develop a research and professional development program for students from underrepresented backgrounds and supported an NIH R01 grant application.</p>
           <ul class="tag-list"><li>Program Management</li><li>Grant Support</li><li>Education</li></ul>
         </article>
-        <article class="card">
+        <article class="card work-cat-education">
+          <span class="work-cat-label">Education</span>
           <h3><a href="work/curriculum-development/">Public Health Curriculum and Program Assessment</a></h3>
           <p class="entry-meta">University of Memphis &middot; Assistant Professor of Medical Anthropology</p>
           <p>Designed courses on race, health disparities, and applied medical anthropology, and supported curriculum review and program assessment.</p>
           <ul class="tag-list"><li>Education</li><li>Evaluation</li><li>Public Health</li></ul>
         </article>
-        <article class="card">
+        <article class="card work-cat-program">
+          <span class="work-cat-label">Project Coordination</span>
           <h3><a href="work/research-project-coordination/">Federally Funded Research Project Coordination</a></h3>
           <p class="entry-meta">University of Arizona &middot; Project Coordinator</p>
           <p>Coordinated research activities, monitored expenditures, managed data, and supervised undergraduate researchers on a federally funded project.</p>
           <ul class="tag-list"><li>Project Management</li><li>Research</li><li>Grant Support</li></ul>
         </article>
-        <article class="card">
+        <article class="card work-cat-communication">
+          <span class="work-cat-label">Communication</span>
           <h3><a href="work/science-communication/">Science Journalism and Research Translation</a></h3>
           <p class="entry-meta">Science Magazine &middot; Editorial Intern</p>
           <p>Interviewed researchers, fact-checked scientific information, wrote digital articles, and produced a podcast episode for broad audiences.</p>
