@@ -1,0 +1,57 @@
+{
+  "name": "Fayana Richards",
+  "honorific": "Dr.",
+  "credentials": ["PhD", "MPH", "PMP"],
+  "displayName": "Dr. Fayana Richards, MPH, PMP",
+  "primaryIdentity": "Public health program strategy and operations leader, and medical anthropologist",
+  "supportingIdentities": [
+    "Senior public health program leader",
+    "Program and project manager",
+    "Research program professional",
+    "Community-engaged researcher",
+    "Evaluator",
+    "Curriculum developer",
+    "Facilitator",
+    "Educator",
+    "Published researcher",
+    "Presenter",
+    "Science communicator",
+    "Cross-functional collaborator"
+  ],
+  "experienceStatement": "More than 18 years of experience across public health, consulting, program management, research, higher education, curriculum development, community engagement, and science communication.",
+  "contact": {
+    "email": "frichard84@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/fayanar/"
+  },
+  "availability": [
+    "Consulting",
+    "Speaking",
+    "Employment opportunities"
+  ],
+  "education": [
+    {"institution": "Michigan State University", "degree": "Doctor of Philosophy in Medical Anthropology", "year": 2018, "verificationStatus": "Verified", "sourceReference": "Optomi résumé"},
+    {"institution": "Michigan State University", "degree": "Master of Public Health", "year": 2015, "verificationStatus": "Verified", "sourceReference": "Optomi résumé"},
+    {"institution": "Michigan State University", "degree": "Master of Arts in Medical Anthropology", "year": 2012, "verificationStatus": "Verified", "sourceReference": "Optomi résumé"},
+    {"institution": "University of Arizona", "degree": "Bachelor of Arts in Medical Anthropology and Journalism", "year": 2008, "verificationStatus": "Verified", "sourceReference": "Optomi résumé"}
+  ],
+  "certifications": [
+    {"name": "Project Management Professional (PMP)", "issuer": "Project Management Institute", "year": 2026, "verificationStatus": "Verified", "sourceReference": "Website specification (final)"},
+    {"name": "Technology of Participation Strategic Planning and Facilitation Methods", "issuer": "Institute of Cultural Affairs", "year": 2021, "verificationStatus": "Verified", "sourceReference": "Website specification (final)"},
+    {"name": "NSF Summer Institute for Research Design in Cultural Anthropology", "issuer": "University of Florida", "year": 2012, "verificationStatus": "Verified", "sourceReference": "Website specification (final)"}
+  ],
+  "fundingAndAwards": [
+    {"name": "NSF Graduate Research Fellowship", "years": "2011–2014", "verificationStatus": "Verified", "sourceReference": "Website specification (final)"},
+    {"name": "NSF AGEP Award", "years": "2011–2013", "verificationStatus": "Verified", "sourceReference": "Website specification (final)"},
+    {"name": "National Cancer Institute Diversity Research Supplement, NIH", "years": "2009", "verificationStatus": "Verified", "sourceReference": "Website specification (final)"}
+  ],
+  "affiliations": [
+    {"name": "Affiliate Faculty, Center for Community Health Research, University of Massachusetts Amherst", "years": "2019–present", "verificationStatus": "Verified", "sourceReference": "Website specification (final)"}
+  ],
+  "digitalTools": {
+    "note": "Publish only tools supported by approved source material; no proficiency levels without approval.",
+    "tools": ["Microsoft Word", "Microsoft Office applications", "SAS", "Trello", "Zoom", "Microsoft SharePoint", "RedCap", "MAXQDA", "EndNote", "Learning management systems", "Digital collaboration platforms"],
+    "developingAreas": ["Generative artificial intelligence", "Prompt development", "Responsible artificial intelligence", "Artificial intelligence governance", "Microsoft Power Platform", "Automation", "Azure concepts", "Data and machine learning concepts"],
+    "developingAreasHeading": "Responsible AI for Public Health, Program Operations, and Learning",
+    "verificationStatus": "Needs confirmation"
+  }
+}
