@@ -127,6 +127,13 @@ def teaching(depth):
     <div class="container split">
       <div>
         <h2 id="facilitation-heading">Workshop Facilitation and Professional Learning</h2>
+        <!-- PLACEHOLDER: speaking-photo
+             Drop the approved photo at /assets/img/PLACEHOLDER-speaking.jpg, then replace the
+             figure below with:
+             <figure><img src="{r('/assets/img/PLACEHOLDER-speaking.jpg')}" alt="Dr. Fayana Richards facilitating a session" width="600" height="400" loading="lazy" decoding="async" style="border-radius: var(--radius);"></figure> -->
+        <figure class="photo-placeholder">
+          <span>Speaking / facilitation photo<br>/assets/img/PLACEHOLDER-speaking.jpg</span>
+        </figure>
         <p>At the Michigan Public Health Institute, Fayana designed and facilitated workshops for professional audiences, including virtual sessions addressing racism, oppression, health disparities, and related public health issues. Her facilitation practice is inclusive and community-centered, and she is trained in Technology of Participation strategic planning and facilitation methods (Institute of Cultural Affairs, 2021).</p>
         <p>At the University of Massachusetts Amherst, she helped develop a research and professional development program for students from underrepresented backgrounds, coordinating learning activities across faculty, staff, students, and community partners.</p>
       </div>

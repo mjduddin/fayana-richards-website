@@ -60,6 +60,16 @@ def home(depth):
         </li>""" for period, title, org in timeline
     )
 
+    # Category keys give the six Featured Work cards visual rhythm without photos:
+    # program=bronze, research=plum-mid, education=slate, communication=aubergine.
+    featured_cats = [
+        ("work-cat-program", "Consulting"),
+        ("work-cat-research", "Research"),
+        ("work-cat-program", "Program Design"),
+        ("work-cat-education", "Education"),
+        ("work-cat-program", "Project Coordination"),
+        ("work-cat-communication", "Communication"),
+    ]
     featured = [
         ("Public Health Consulting and Program Coordination", "Michigan Public Health Institute",
          "Senior Public Health Consultant",
@@ -87,12 +97,13 @@ def home(depth):
          ["Science Communication", "Research"], "/work/science-communication/"),
     ]
     featured_html = "\n".join(
-        f"""        <article class="card">
+        f"""        <article class="card {cat_class}">
+          <span class="work-cat-label">{cat_label}</span>
           <h3><a href="{r(link)}">{title}</a></h3>
           <p class="entry-meta">{org} &middot; {role}</p>
           <p>{summary}</p>
           <ul class="tag-list">{''.join(f'<li>{t}</li>' for t in tags)}</ul>
-        </article>""" for title, org, role, summary, tags, link in featured
+        </article>""" for (title, org, role, summary, tags, link), (cat_class, cat_label) in zip(featured, featured_cats)
     )
 
     return f"""  <section class="hero">
@@ -108,8 +119,11 @@ def home(depth):
         </div>
       </div>
       <div class="hero-figure">
-        <div class="portrait-placeholder" role="img" aria-label="Placeholder monogram for Dr. Fayana Richards. A professional headshot will appear here.">
-          <span aria-hidden="true">FR</span>
+        <!-- PLACEHOLDER: headshot — drop the approved photo at /assets/img/headshot.jpg.
+             The FR monogram below is a fallback that displays only while the image is missing. -->
+        <div class="portrait-frame">
+          <img src="{r('/assets/img/headshot.jpg')}" alt="Dr. Fayana Richards" width="280" height="350" fetchpriority="high" decoding="async" onerror="this.classList.add('img-missing')">
+          <span class="portrait-fallback" aria-hidden="true">FR</span>
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ import pages_core
 import pages_work
 import pages_other
 
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "fayana-richards-website")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 
 
 def jsonld(data):
