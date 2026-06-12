@@ -368,11 +368,12 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--slate);
 }
 
-/* Featured Work category keying: colored top bar + small category label */
-.work-cat-program { border-top: 5px solid var(--bronze); }
-.work-cat-research { border-top: 5px solid var(--plum-mid); }
-.work-cat-education { border-top: 5px solid var(--slate-soft); }
-.work-cat-communication { border-top: 5px solid var(--aubergine); }
+/* Featured Work category keying: colored top bar + small category label.
+   .card qualifier keeps these rules ahead of the base .card border-top. */
+.card.work-cat-program { border-top: 5px solid var(--bronze); }
+.card.work-cat-research { border-top: 5px solid var(--plum-mid); }
+.card.work-cat-education { border-top: 5px solid var(--slate-soft); }
+.card.work-cat-communication { border-top: 5px solid var(--aubergine); }
 .work-cat-label {
   display: block;
   font-size: var(--text-sm);
