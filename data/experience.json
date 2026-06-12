@@ -11,19 +11,27 @@
     "type": "Employment",
     "summary": "Senior consulting role spanning multiple concurrent public health projects, combining project leadership, client advising, facilitation, partnership support, and evidence-informed decision-making.",
     "responsibilities": [
-      "Led or coordinated multiple concurrent public health projects and led a team of public health consultants",
-      "Conducted client intake meetings, developed scopes of work, and built project plans and work plans",
-      "Established and monitored timelines and milestones, tracked deliverables, and maintained dashboards and project-tracking tools",
-      "Advised clients and organizational leaders on social justice programming and managed sensitive issues and escalations",
-      "Designed and facilitated workshops, including virtual sessions addressing racism, oppression, health disparities, and related public health issues",
-      "Supported contract negotiations, partnership agreements, and joint-venture agreement work",
-      "Supervised staff and used qualitative and quantitative information to support program decisions"
+      "Coordinated six concurrent projects and workstreams, aligning timelines, deliverables, and stakeholder communication with organizational and client priorities",
+      "Led weekly team meetings and individual check-ins for project teams of four to nine members",
+      "Conducted client intake meetings, developed and monitored scopes of work, and supported contracts, partnership agreements, and joint-venture agreements",
+      "Managed production of deliverables including toolkits, concept papers, a statewide strategic plan, workshop series, and facilitation guides",
+      "Designed and facilitated more than 50 workshops, including virtual sessions addressing racism, oppression, health disparities, and related public health issues",
+      "Submitted quarterly progress summaries and final reports; co-monitored budgets with the Senior Financial Analyst",
+      "Supervised and mentored two staff members; reviewed work of research scientists and research and evaluation associates",
+      "Co-wrote five concept papers with collaborative partners for grant opportunities"
     ],
     "achievements": [],
-    "skills": ["Program Management", "Public Health", "Facilitation", "Partnerships"],
-    "relatedProjects": ["public-health-consulting"],
-    "verificationStatus": "Verified (title and start date per Optomi résumé); supervised-staff count withheld pending confirmation",
-    "sourceReference": "Optomi résumé; website specification (final)"
+    "skills": [
+      "Program Management",
+      "Public Health",
+      "Facilitation",
+      "Partnerships"
+    ],
+    "relatedProjects": [
+      "public-health-consulting"
+    ],
+    "verificationStatus": "Verified against Optomi resume (3.27.26)",
+    "sourceReference": "Optomi resume 3.27.26; website specification (final)"
   },
   {
     "id": "memphis",
@@ -37,17 +45,25 @@
     "type": "Academic appointment",
     "summary": "Faculty appointment combining teaching, curriculum development, program assessment, and student mentoring focused on race, health disparities, and applied medical anthropology.",
     "responsibilities": [
-      "Designed and taught courses related to race, health disparities, and applied medical anthropology",
-      "Developed curricula and instructional materials connected to measurable learning objectives",
-      "Supported curriculum review, program assessment, and administrative planning",
-      "Mentored students in research and community engagement",
-      "Used interactive teaching and discussion-based methods"
+      "Designed and taught six undergraduate and graduate courses related to race, health disparities, and applied medical anthropology",
+      "Developed LMS materials and interactive learning activities aligned with course objectives using instructional design principles",
+      "Supervised six undergraduate and graduate student practicum placements",
+      "Supported curriculum review, program assessment, and administrative planning through committee service",
+      "Published peer-reviewed work on grandparent caregiving and the social and cultural impact of caregiving on aging; presented at national and international conferences",
+      "Secured funding for a research project on caregiving and social isolation in Memphis, TN, and Detroit, MI"
     ],
     "achievements": [],
-    "skills": ["Education", "Curriculum Development", "Evaluation", "Mentoring"],
-    "relatedProjects": ["curriculum-development"],
-    "verificationStatus": "Verified",
-    "sourceReference": "Website specification (final)"
+    "skills": [
+      "Education",
+      "Curriculum Development",
+      "Evaluation",
+      "Mentoring"
+    ],
+    "relatedProjects": [
+      "curriculum-development"
+    ],
+    "verificationStatus": "Verified against Optomi resume (3.27.26)",
+    "sourceReference": "Optomi resume 3.27.26; website specification (final)"
   },
   {
     "id": "hampshire",
@@ -61,15 +77,18 @@
     "type": "Academic appointment",
     "summary": "Visiting faculty appointment teaching public health content in an interdisciplinary liberal arts setting.",
     "responsibilities": [
-      "Taught public health content and supported interdisciplinary education",
-      "Applied expertise in medical anthropology and population health",
-      "Developed and delivered instructional content and supported student learning"
+      "Developed instructional materials for two undergraduate courses using adult learning principles",
+      "Delivered interactive lectures integrating evidence-based public health concepts, including research design, evaluation, and data interpretation",
+      "Oversaw thesis development for three undergraduate students"
     ],
     "achievements": [],
-    "skills": ["Education", "Public Health"],
+    "skills": [
+      "Education",
+      "Public Health"
+    ],
     "relatedProjects": [],
-    "verificationStatus": "Needs confirmation (exact dates and course information)",
-    "sourceReference": "Website specification (final)"
+    "verificationStatus": "Verified against Optomi resume (3.27.26); year 2019",
+    "sourceReference": "Optomi resume 3.27.26; website specification (final)"
   },
   {
     "id": "umass",
@@ -83,16 +102,24 @@
     "type": "Research appointment",
     "summary": "Postdoctoral appointment supporting community-engaged research on chronic disease prevention and transnational health, with program development and grant support responsibilities.",
     "responsibilities": [
-      "Helped develop a research and professional development program for students from underrepresented backgrounds",
-      "Assisted with staffing requirements and budget development for an NIH R01 grant application, and supported grant compliance planning",
-      "Coordinated research and professional development activities with faculty, staff, students, and community partners",
-      "Supported community-engaged research on chronic disease prevention and transnational health"
+      "Supported NIH R01 proposal development through drafting, editing, compliance reviews, and budget preparation",
+      "Coordinated input across faculty and administrative stakeholders for a timely, accurate, and compliant submission",
+      "Designed and implemented a professional development curriculum for students from underrepresented backgrounds",
+      "Collaborated with a Community Research Liaison and Project Manager to strengthen the Center for Community Health Research's Community Steering Board",
+      "Conducted targeted literature reviews and presented dissertation findings at the American Anthropological Association annual meeting"
     ],
     "achievements": [],
-    "skills": ["Research", "Program Management", "Grant Support", "Community Engagement"],
-    "relatedProjects": ["research-development-program"],
-    "verificationStatus": "Verified (center affiliation per résumé); grant funding outcome unverified — not published",
-    "sourceReference": "Optomi résumé; website specification (final)"
+    "skills": [
+      "Research",
+      "Program Management",
+      "Grant Support",
+      "Community Engagement"
+    ],
+    "relatedProjects": [
+      "research-development-program"
+    ],
+    "verificationStatus": "Verified against Optomi resume (3.27.26); funding outcome still unverified",
+    "sourceReference": "Optomi resume 3.27.26; website specification (final)"
   },
   {
     "id": "msu",
@@ -104,7 +131,7 @@
     "endDate": "2017-12",
     "current": false,
     "type": "Graduate roles",
-    "summary": "Doctoral training in medical anthropology with approximately 18 months of community-based field research in Detroit and sustained teaching support roles (teaching 2011–2017).",
+    "summary": "Doctoral training in medical anthropology with approximately 18 months of community-based field research in Detroit and sustained teaching support roles (teaching 2011\u20132017).",
     "responsibilities": [
       "Conducted approximately 18 months of field research on aging, caregiving, chronic illness, and health disparities among older Black women in Detroit",
       "Examined social and structural determinants of health using qualitative and quantitative information",
@@ -112,8 +139,14 @@
       "Supported college-level teaching, assisted with grading, delivered guest lectures, and supported assessment development"
     ],
     "achievements": [],
-    "skills": ["Research", "Community Engagement", "Education"],
-    "relatedProjects": ["aging-caregiving-research"],
+    "skills": [
+      "Research",
+      "Community Engagement",
+      "Education"
+    ],
+    "relatedProjects": [
+      "aging-caregiving-research"
+    ],
     "verificationStatus": "Verified (working dates); dissertation title, participant count, and award amounts withheld pending verification",
     "sourceReference": "Website specification (final)"
   },
@@ -129,17 +162,23 @@
     "type": "Employment",
     "summary": "Coordination role on a federally funded research project, combining research operations, financial monitoring, and supervision of undergraduate researchers.",
     "responsibilities": [
-      "Coordinated activities for a federally funded research project",
+      "Coordinated activities for a federally funded research project; supported biweekly budget reviews with the Principal Investigator",
       "Prepared monthly expense reports and monitored project expenditures",
-      "Supported project documentation, reporting, and data management",
-      "Supervised undergraduate research activities",
-      "Used Atlas.ti and SPSS"
+      "Conducted qualitative and quantitative data transcription and analysis using MAXQDA and SAS; maintained references in EndNote",
+      "Supervised and collaborated with undergraduate research assistants on research design, analysis, and presentation development",
+      "Presented research findings at national conferences"
     ],
     "achievements": [],
-    "skills": ["Project Management", "Research", "Grant Support"],
-    "relatedProjects": ["research-project-coordination"],
-    "verificationStatus": "Verified (role and dates); $3 million project amount withheld pending verification",
-    "sourceReference": "Website specification (final)"
+    "skills": [
+      "Project Management",
+      "Research",
+      "Grant Support"
+    ],
+    "relatedProjects": [
+      "research-project-coordination"
+    ],
+    "verificationStatus": "Verified against Optomi resume (3.27.26); $3M figure still unverified \u2014 withheld",
+    "sourceReference": "Optomi resume 3.27.26; website specification (final)"
   },
   {
     "id": "science",
@@ -159,9 +198,14 @@
       "Supported digital science communication"
     ],
     "achievements": [],
-    "skills": ["Science Communication", "Research"],
-    "relatedProjects": ["science-communication"],
-    "verificationStatus": "Needs confirmation — not on Optomi résumé; confirm with Fayana before final publication or omit",
+    "skills": [
+      "Science Communication",
+      "Research"
+    ],
+    "relatedProjects": [
+      "science-communication"
+    ],
+    "verificationStatus": "Needs confirmation \u2014 not on Optomi r\u00e9sum\u00e9; confirm with Fayana before final publication or omit",
     "sourceReference": "Website specification (final)"
   }
 ]

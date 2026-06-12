@@ -5,8 +5,6 @@
     "title": "Public Health Consulting and Program Coordination",
     "organization": "Michigan Public Health Institute",
     "role": "Senior Public Health Consultant",
-    "startDate": null,
-    "endDate": null,
     "dates": "June 2021 \u2013 2025",
     "summary": "Senior consulting role leading and coordinating multiple concurrent public health projects, advising clients on social justice programming, and supporting partnerships, facilitation, and implementation.",
     "context": "The Michigan Public Health Institute supports public health organizations, agencies, and communities through consulting, evaluation, and program services. Fayana served as a Senior Public Health Consultant from June 2021 to 2025, working across multiple client engagements at the same time.",
@@ -20,26 +18,34 @@
     "stakeholders": "Client organizations, organizational leaders, internal consulting teams, supervised staff, and community and organizational partners.",
     "scope": "Multiple concurrent public health consulting projects, including social justice programming, workshop design and facilitation, partnership support, and project planning and monitoring.",
     "responsibilities": [
-      "Led or coordinated multiple concurrent public health projects and led a team of public health consultants.",
-      "Conducted client intake meetings and developed scopes of work, project plans, and work plans.",
-      "Established and monitored timelines and milestones, and tracked deliverables.",
-      "Coordinated internal and external stakeholders and supported community and organizational partnerships.",
-      "Designed and facilitated workshops, including virtual sessions addressing racism, oppression, health disparities, and related public health issues.",
-      "Supported contract negotiations, partnership agreements, and joint-venture agreement work.",
+      "Coordinated six concurrent projects and workstreams, aligning timelines, deliverables, and stakeholder communication with organizational and client priorities.",
+      "Led weekly team meetings and individual check-ins for project teams of four to nine members, preparing agendas, directing action-item follow-up, reviewing milestones, and assigning responsibilities.",
+      "Conducted client intake meetings, developed and monitored scopes of work, and supported contracts, partnership agreements, and joint-venture agreements.",
+      "Designed and facilitated more than 50 workshops, including virtual sessions addressing racism, oppression, health disparities, and related public health issues.",
+      "Submitted quarterly progress summaries and final reports to funding agencies, collaborative partners, and clients, and co-monitored budgets with the Senior Financial Analyst.",
       "Managed sensitive issues and escalations and advised organizational leaders.",
-      "Supervised staff and developed or maintained dashboards and project-tracking tools."
+      "Supervised and mentored two staff members and reviewed work produced by research scientists and research and evaluation associates.",
+      "Co-wrote five concept papers with collaborative partners for grant opportunities."
     ],
     "planning": "Engagements began with client intake meetings to clarify needs, goals, and constraints. Fayana translated those discussions into scopes of work and project plans with defined timelines, milestones, responsibilities, and deliverables, and she maintained tracking tools to keep progress visible.",
     "implementation": "She coordinated internal and external stakeholders across concurrent workstreams, facilitated meetings and workshops, monitored deliverables against plans, managed sensitive issues and escalations as they arose, and adjusted plans based on new information.",
     "methods": "Used qualitative and quantitative information to support program decisions, including stakeholder feedback and project-tracking data.",
     "deliverables": [
+      "Toolkits, concept papers, and facilitation guides",
+      "A statewide strategic plan",
+      "Workshop series and facilitated virtual sessions",
+      "Quarterly progress summaries and final reports",
       "Scopes of work and project plans",
-      "Workshops and facilitated virtual sessions",
-      "Dashboards and project-tracking tools",
       "Advisory support to clients and organizational leaders"
     ],
     "risks": "Work involved sensitive public health topics, multiple concurrent commitments, and confidential client relationships, requiring careful issue management, escalation support, and disciplined documentation.",
-    "results": [],
+    "results": [
+      "Coordinated six concurrent projects and workstreams through to delivery.",
+      "Designed and facilitated more than 50 workshops for public health professionals and clients.",
+      "Delivered toolkits, concept papers, a statewide strategic plan, workshop series, and facilitation guides for audiences including grant agencies, public health professionals, older adults living with disabilities or dementia and their caregivers, and government officials.",
+      "Co-wrote five concept papers with collaborative partners for grant opportunities.",
+      "Supervised and mentored two staff members."
+    ],
     "resultsNote": "Public outcome details are limited because the work involved confidential organizational information.",
     "lessons": "Concurrent consulting work reinforced the value of early scoping, visible tracking, and direct, timely communication when sensitive issues arise.",
     "skills": [
@@ -57,14 +63,12 @@
       "community-engagement"
     ],
     "featured": true,
-    "media": [],
-    "mediaAlt": [],
     "links": [
       "/work/public-health-consulting/"
     ],
     "confidentialityNote": "Client names, project names, contract information, and partner names are not published. Selected project details have been summarized to protect organizational confidentiality.",
-    "verificationStatus": "Ready to publish (responsibilities verified; results withheld where unverified)",
-    "sourceReference": "Website specification (final); Optomi r\u00e9sum\u00e9"
+    "verificationStatus": "Verified against Optomi resume (March 2026)",
+    "sourceReference": "Optomi resume 3.27.26; website specification (final)"
   },
   {
     "id": "aging-caregiving-research",
@@ -72,8 +76,6 @@
     "title": "Community-Engaged Research on Aging, Caregiving, and Chronic Illness",
     "organization": "Michigan State University",
     "role": "Doctoral Researcher",
-    "startDate": null,
-    "endDate": null,
     "dates": "2010 \u2013 2017",
     "summary": "Doctoral research examining aging, caregiving, chronic illness, and health disparities among older Black women in Detroit, based on approximately 18 months of field research.",
     "context": "As a doctoral researcher in medical anthropology at Michigan State University, Fayana designed and conducted an extended community-based research project in Detroit between 2010 and 2017.",
@@ -117,14 +119,12 @@
       "public-health"
     ],
     "featured": true,
-    "media": [],
-    "mediaAlt": [],
     "links": [
       "/work/aging-caregiving-research/"
     ],
     "confidentialityNote": "Participant identities, the dissertation title, participant counts, award amounts, and detailed findings are not published here pending verification and approval. Research participants are never identified.",
-    "verificationStatus": "Ready to publish (responsibilities verified; results withheld where unverified)",
-    "sourceReference": "Website specification (final); Optomi r\u00e9sum\u00e9"
+    "verificationStatus": "Verified against Optomi resume (March 2026)",
+    "sourceReference": "Optomi resume 3.27.26; website specification (final)"
   },
   {
     "id": "research-development-program",
@@ -132,8 +132,6 @@
     "title": "Research and Professional Development Program for Underrepresented Students",
     "organization": "University of Massachusetts Amherst",
     "role": "Post-Doctoral Research Associate",
-    "startDate": null,
-    "endDate": null,
     "dates": "January 2018 \u2013 January 2019",
     "summary": "Helped develop a research and professional development program for students from underrepresented backgrounds and supported a National Institutes of Health R01 grant application.",
     "context": "During her postdoctoral appointment at the University of Massachusetts Amherst, affiliated with the Center for Community Health Research, Fayana contributed to community-engaged research on chronic disease prevention and transnational health.",
@@ -146,23 +144,25 @@
     "stakeholders": "Faculty, staff, students, community partners, and the Center for Community Health Research.",
     "scope": "Program design and coordination, grant application support (staffing, budget, and compliance planning), and community-engaged research support.",
     "responsibilities": [
-      "Helped develop a research and professional development program for students from underrepresented backgrounds.",
-      "Assisted with staffing requirements for an NIH R01 grant application.",
-      "Assisted with budget development for the grant application.",
-      "Supported grant compliance planning.",
-      "Coordinated research and professional development activities.",
-      "Supported community-engaged research on chronic disease prevention and transnational health."
+      "Designed and implemented a professional development curriculum for students from underrepresented backgrounds, expanding access to research training and institutional support.",
+      "Supported NIH R01 proposal development by drafting, editing, and conducting compliance reviews of grant requirements and budget preparation.",
+      "Coordinated input across faculty and administrative stakeholders to ensure the timely, accurate, and compliant submission of a competitive funding proposal.",
+      "Collaborated with a Community Research Liaison and Project Manager to strengthen the Center for Community Health Research's Community Steering Board.",
+      "Supported community-engaged research on chronic disease prevention and transnational health, including targeted literature reviews."
     ],
     "planning": "Program development involved defining activities, participants, and coordination needs; grant support involved translating research aims into staffing plans, budgets, and compliance considerations.",
     "implementation": "Fayana worked across faculty, staff, students, and community partners to coordinate activities and keep program development and grant preparation moving together.",
     "methods": "Community-engaged research practices, research administration, and program coordination.",
     "deliverables": [
-      "A research and professional development program design for underrepresented students",
-      "Staffing, budget, and compliance contributions to an NIH R01 grant application"
+      "A professional development curriculum for underrepresented students, designed and implemented",
+      "Drafting, editing, compliance-review, and budget contributions to an NIH R01 grant application"
     ],
     "risks": "Grant preparation involves firm deadlines and compliance requirements; the program needed to serve students well while remaining feasible for the center.",
-    "results": [],
-    "resultsNote": "The grant application's funding outcome is not published here pending verification. Verified outcome information will be added after review of approved project records.",
+    "results": [
+      "Contributed to the timely, accurate, and compliant submission of a competitive NIH R01 funding proposal.",
+      "Designed and implemented a professional development curriculum that expanded access to research training and institutional support for underrepresented students."
+    ],
+    "resultsNote": "The grant application's funding outcome is not published here pending verification.",
     "lessons": "This role connected research administration with program design, sharpening skills in staffing plans, budgets, and compliance that carry directly into research program management.",
     "skills": [
       "Program Management",
@@ -181,14 +181,12 @@
       "workforce-development"
     ],
     "featured": true,
-    "media": [],
-    "mediaAlt": [],
     "links": [
       "/work/research-development-program/"
     ],
     "confidentialityNote": null,
-    "verificationStatus": "Ready to publish (responsibilities verified; results withheld where unverified)",
-    "sourceReference": "Website specification (final); Optomi r\u00e9sum\u00e9"
+    "verificationStatus": "Verified against Optomi resume (March 2026)",
+    "sourceReference": "Optomi resume 3.27.26; website specification (final)"
   },
   {
     "id": "curriculum-development",
@@ -196,8 +194,6 @@
     "title": "Public Health and Medical Anthropology Curriculum Development",
     "organization": "University of Memphis",
     "role": "Assistant Professor of Medical Anthropology",
-    "startDate": null,
-    "endDate": null,
     "dates": "August 2019 \u2013 May 2021",
     "summary": "Designed and taught courses on race, health disparities, and applied medical anthropology, developed curricula and instructional materials, and supported curriculum review and program assessment.",
     "context": "As an Assistant Professor of Medical Anthropology at the University of Memphis from August 2019 to May 2021, Fayana combined teaching, curriculum development, program assessment, and student mentoring.",
@@ -211,24 +207,29 @@
     "stakeholders": "Students, departmental faculty and administrators, and the communities connected to applied coursework.",
     "scope": "Course design and instruction, curriculum and instructional material development, program assessment support, and student mentoring.",
     "responsibilities": [
-      "Designed and taught courses related to race, health disparities, and applied medical anthropology.",
-      "Developed curricula and instructional materials connected to measurable learning objectives.",
-      "Supported curriculum review and program assessment.",
-      "Contributed to administrative planning.",
-      "Mentored students in research and community engagement.",
-      "Used interactive teaching and discussion-based methods."
+      "Designed and taught six undergraduate and graduate courses related to race, health disparities, and applied medical anthropology.",
+      "Developed learning management system materials and interactive learning activities aligned with course objectives using instructional design principles.",
+      "Developed in-class surveys to assess comprehension and satisfaction, and revised course content based on student feedback.",
+      "Supported curriculum review and administrative planning through committee service.",
+      "Supervised six undergraduate and graduate student practicum placements.",
+      "Published peer-reviewed work on grandparent caregiving and presented at national and international conferences."
     ],
     "planning": "Curriculum development began with learning objectives, then built instructional materials, activities, and assessments aligned to them.",
     "implementation": "Courses used interactive and discussion-based methods suited to demanding topics such as race and health disparities, and mentoring extended learning into research and community engagement.",
     "methods": "Curriculum design, learning assessment, interactive and discussion-based instruction, and program assessment.",
     "deliverables": [
-      "Courses and curricula on race, health disparities, and applied medical anthropology",
-      "Instructional materials tied to measurable learning objectives",
+      "Six undergraduate and graduate courses, designed and taught",
+      "Learning management system materials and interactive learning activities",
       "Contributions to curriculum review and program assessment"
     ],
     "risks": "Teaching on race and health disparities requires careful facilitation to keep discussions productive and inclusive.",
-    "results": [],
-    "resultsNote": "Course titles, enrollment figures, and teaching evaluation results are not published here pending verification. Verified outcome information will be added after review of approved project records.",
+    "results": [
+      "Designed and taught six undergraduate and graduate courses.",
+      "Supervised six undergraduate and graduate student practicum placements, strengthening students' applied research and implementation skills.",
+      "Published peer-reviewed work on grandparent caregiving and the social and cultural impact of caregiving on aging.",
+      "Secured funding for a research project on caregiving and social isolation in Memphis, Tennessee, and Detroit, Michigan."
+    ],
+    "resultsNote": "Course titles and teaching evaluation results are not published here pending verification.",
     "lessons": "Designing curricula around measurable objectives reinforced the same discipline Fayana applies to program design: define the goal first, then build the work plan to reach it.",
     "skills": [
       "Education",
@@ -243,14 +244,12 @@
       "facilitation"
     ],
     "featured": true,
-    "media": [],
-    "mediaAlt": [],
     "links": [
       "/work/curriculum-development/"
     ],
     "confidentialityNote": "Student identities and individual student outcomes are never published.",
-    "verificationStatus": "Ready to publish (responsibilities verified; results withheld where unverified)",
-    "sourceReference": "Website specification (final); Optomi r\u00e9sum\u00e9"
+    "verificationStatus": "Verified against Optomi resume (March 2026)",
+    "sourceReference": "Optomi resume 3.27.26; website specification (final)"
   },
   {
     "id": "research-project-coordination",
@@ -258,8 +257,6 @@
     "title": "Federally Funded Research Project Coordination",
     "organization": "University of Arizona",
     "role": "Project Coordinator",
-    "startDate": null,
-    "endDate": null,
     "dates": "2009 \u2013 2010",
     "summary": "Coordinated activities for a federally funded research project, including expenditure monitoring, expense reporting, data management, and supervision of undergraduate researchers.",
     "context": "Early in her career, Fayana served as Project Coordinator for a federally funded research project at the University of Arizona from 2009 to 2010.",
@@ -273,15 +270,15 @@
     "scope": "Day-to-day project coordination, financial monitoring and reporting, data management support, and supervision of undergraduate research activities.",
     "responsibilities": [
       "Coordinated activities for a federally funded research project.",
+      "Supported biweekly budget reviews with the Principal Investigator and coordinated with the Business Office Manager.",
       "Prepared monthly expense reports and monitored project expenditures.",
-      "Supported project documentation and reporting.",
-      "Supervised undergraduate research activities.",
-      "Supported data management and coordinated administrative and research tasks.",
-      "Communicated with project team members."
+      "Conducted qualitative and quantitative data transcription and analysis.",
+      "Supervised and collaborated with undergraduate research assistants on research design, analysis, and presentation development.",
+      "Presented research findings at national conferences."
     ],
     "planning": "Coordination work centered on keeping schedules, documentation, and reporting cycles organized and predictable.",
     "implementation": "Fayana managed monthly reporting rhythms, tracked expenditures, supported data management, and supervised undergraduate researchers' day-to-day activities.",
-    "methods": "Project documentation and reporting, expenditure monitoring, and research data management using tools including Atlas.ti and SPSS.",
+    "methods": "Project documentation and reporting, expenditure monitoring, and qualitative and quantitative transcription and analysis using MAXQDA and SAS, with reference management in EndNote.",
     "deliverables": [
       "Monthly expense reports",
       "Project documentation and reporting",
@@ -302,14 +299,12 @@
       "grant-support"
     ],
     "featured": true,
-    "media": [],
-    "mediaAlt": [],
     "links": [
       "/work/research-project-coordination/"
     ],
     "confidentialityNote": null,
-    "verificationStatus": "Ready to publish (responsibilities verified; results withheld where unverified)",
-    "sourceReference": "Website specification (final); Optomi r\u00e9sum\u00e9"
+    "verificationStatus": "Verified against Optomi resume (March 2026)",
+    "sourceReference": "Optomi resume 3.27.26; website specification (final)"
   },
   {
     "id": "science-communication",
@@ -317,8 +312,6 @@
     "title": "Science Journalism and Research Translation",
     "organization": "Science Magazine",
     "role": "Editorial Intern",
-    "startDate": null,
-    "endDate": null,
     "dates": "Dates in review",
     "summary": "Interviewed researchers, fact-checked scientific information, wrote articles for the Science website, and produced a podcast episode translating research for broad audiences.",
     "context": "Fayana completed an editorial internship with Science Magazine, working across written and audio formats to translate technical research for broader audiences. The dates of this role are being confirmed against approved records.",
@@ -357,13 +350,11 @@
       "research"
     ],
     "featured": true,
-    "media": [],
-    "mediaAlt": [],
     "links": [
       "/work/science-communication/"
     ],
     "confidentialityNote": null,
-    "verificationStatus": "Ready to publish (responsibilities verified; results withheld where unverified)",
-    "sourceReference": "Website specification (final); Optomi r\u00e9sum\u00e9"
+    "verificationStatus": "Verified against Optomi resume (March 2026)",
+    "sourceReference": "Optomi resume 3.27.26; website specification (final)"
   }
 ]
