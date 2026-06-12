@@ -12,9 +12,21 @@
   --charcoal: #22272B;        /* Body text */
   --slate: #4D575E;           /* Secondary text (darkened slate for AA contrast on neutral) */
   --slate-soft: #5D6870;      /* Approved slate — large text and decorative use */
+  --plum-mid: #6D4A63;        /* Mid-tone from the aubergine family — lightens large dark bands */
   --white: #FFFFFF;
 
-  /* Typography */
+  /* Brand-token aliases (same values; alternate naming convention) */
+  --color-plum: var(--aubergine);
+  --color-ochre: var(--bronze);
+  --color-ochre-text: var(--bronze-ink);
+  --color-cream: var(--neutral);
+  --color-plum-mid: var(--plum-mid);
+
+  /* Typography
+     Headings use Source Serif 4 — a literary transitional serif (per design review).
+     To swap, change only the first family below and update the Google Fonts <link>
+     in each page <head>, e.g.:
+     --font-heading: "Lora", Georgia, "Times New Roman", serif;  */
   --font-heading: "Source Serif 4", Georgia, "Times New Roman", serif;
   --font-body: "Source Sans 3", "Segoe UI", Arial, sans-serif;
 
@@ -300,7 +312,11 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .hero-figure { display: flex; justify-content: center; }
-.portrait-placeholder {
+
+/* Headshot frame: ochre border, 4:5 proportions, rounded corners.
+   The FR monogram is a fallback that shows only if the image is missing. */
+.portrait-frame {
+  position: relative;
   width: min(280px, 100%);
   aspect-ratio: 4 / 5;
   border-radius: var(--radius);
@@ -309,8 +325,18 @@ img { max-width: 100%; height: auto; display: block; }
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
-.portrait-placeholder span {
+.portrait-frame img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.portrait-frame img.img-missing { display: none; }
+.portrait-fallback {
   font-family: var(--font-heading);
   font-size: 4rem;
   font-weight: 700;
@@ -320,8 +346,45 @@ img { max-width: 100%; height: auto; display: block; }
 @media (max-width: 760px) {
   .hero-grid { grid-template-columns: 1fr; padding-block: var(--space-7); }
   .hero-figure { order: -1; }
-  .portrait-placeholder { width: min(200px, 60%); }
+  .portrait-frame { width: min(200px, 60%); }
 }
+
+/* Photography placeholder slots (replaced when real images are supplied) */
+.photo-placeholder {
+  aspect-ratio: 3 / 2;
+  border-radius: var(--radius);
+  background: var(--neutral);
+  border: 1px dashed var(--slate-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-4);
+  margin: 0 0 var(--space-5);
+}
+.photo-placeholder span {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--slate);
+}
+
+/* Featured Work category keying: colored top bar + small category label */
+.work-cat-program { border-top: 5px solid var(--bronze); }
+.work-cat-research { border-top: 5px solid var(--plum-mid); }
+.work-cat-education { border-top: 5px solid var(--slate-soft); }
+.work-cat-communication { border-top: 5px solid var(--aubergine); }
+.work-cat-label {
+  display: block;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-2);
+}
+.work-cat-program .work-cat-label { color: var(--bronze-ink); }
+.work-cat-research .work-cat-label { color: var(--plum-mid); }
+.work-cat-education .work-cat-label { color: var(--slate); }
+.work-cat-communication .work-cat-label { color: var(--aubergine); }
 
 /* Buttons -------------------------------------------------------------------- */
 
@@ -651,7 +714,9 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* CTA band ------------------------------------------------------------------------- */
 
-.cta-band { background: var(--aubergine); color: var(--white); }
+/* CTA bands use the mid-tone plum to reduce dark-field weight on the page;
+   header and footer keep the full aubergine. White text on --plum-mid: 7.0:1. */
+.cta-band { background: var(--plum-mid); color: var(--white); }
 .cta-band .container {
   padding-block: var(--space-7);
   display: flex;
