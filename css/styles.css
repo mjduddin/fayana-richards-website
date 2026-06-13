@@ -177,6 +177,9 @@ img { max-width: 100%; height: auto; display: block; }
   z-index: 100;
 }
 
+/* Remove left container padding so wordmark sits flush with the left edge */
+.site-header .header-inner { padding-inline-start: 0; }
+
 .header-inner {
   display: flex;
   flex-wrap: nowrap;
@@ -226,7 +229,7 @@ img { max-width: 100%; height: auto; display: block; }
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.02em;
-  padding: var(--space-2) var(--space-1);
+  padding: var(--space-2) 2px;
   border-bottom: 2px solid transparent;
   white-space: nowrap;
 }
