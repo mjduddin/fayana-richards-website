@@ -1,7 +1,7 @@
 """Shared HTML templates for the Fayana Richards portfolio website."""
 
-SITE_URL = "https://fayanarichards.com"  # Update before launch; see README.
-SITE_NAME = "Dr. Fayana Richards, MPH, PMP"
+SITE_URL = "https://mjduddin.github.io/fayana-richards-website"  # Custom domain: single find-and-replace in this file.
+SITE_NAME = "Fayana Richards, PhD, MPH, PMP"
 
 NAV = [
     ("Home", "/"),
@@ -58,13 +58,15 @@ def head(title, description, path, depth, og_type="website", extra_jsonld=""):
   <meta property="og:description" content="{description}">
   <meta property="og:url" content="{canonical}">
   <meta property="og:site_name" content="{SITE_NAME}">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="{SITE_URL}/assets/img/og-card.png">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{title}">
   <meta name="twitter:description" content="{description}">
+  <meta name="twitter:image" content="{SITE_URL}/assets/img/og-card.png">
   <link rel="icon" type="image/svg+xml" href="{favicon}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Serif+4:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{css}">
 {extra_jsonld}</head>
 """
@@ -82,7 +84,7 @@ def header(active_path, depth):
 <a class="skip-link" href="#main-content">Skip to main content</a>
 <header class="site-header">
   <div class="container header-inner">
-    <a class="wordmark" href="{home_href}">Dr.&nbsp;Fayana&nbsp;Richards, <span class="wordmark-credentials">MPH, PMP</span></a>
+    <a class="wordmark" href="{home_href}">Fayana&nbsp;Richards, <span class="wordmark-credentials">PhD, MPH, PMP</span></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
       <span class="menu-toggle-bar" aria-hidden="true"></span>
       <span class="menu-toggle-label">Menu</span>
@@ -138,7 +140,7 @@ def footer(depth):
 <footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-brand">
-      <p class="footer-wordmark">Dr. Fayana Richards, MPH, PMP</p>
+      <p class="footer-wordmark">Fayana Richards, PhD, MPH, PMP</p>
       <p>Public health program strategy and operations leader, and medical anthropologist.</p>
       <ul class="footer-contact-list">
         <li><a href="mailto:frichard84@gmail.com">frichard84@gmail.com</a></li>

@@ -17,8 +17,7 @@ def jsonld(data):
 PERSON = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Fayana Richards",
-    "honorificPrefix": "Dr.",
+    "name": "Fayana Richards, PhD, MPH, PMP",
     "honorificSuffix": "PhD, MPH, PMP",
     "jobTitle": "Public Health Program Strategy and Operations Leader",
     "description": "Public health strategist, medical anthropologist, program leader, researcher, and educator with more than 18 years of experience.",
@@ -45,7 +44,7 @@ PERSON = {
 SERVICE = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "name": "Dr. Fayana Richards, MPH, PMP — Public Health Program Strategy and Leadership",
+    "name": "Fayana Richards, PhD, MPH, PMP — Public Health Program Strategy and Leadership",
     "url": SITE_URL + "/",
     "description": "Consulting, speaking, facilitation, and program leadership in public health, research program management, evaluation, and professional learning.",
     "founder": {"@type": "Person", "name": "Fayana Richards"},
@@ -87,7 +86,7 @@ def main():
     # Home
     add_page(
         "index.html", "/",
-        "Dr. Fayana Richards, MPH, PMP | Public Health and Program Leadership",
+        "Fayana Richards, PhD, MPH, PMP | Public Health and Program Leadership",
         "Fayana Richards is a public health strategist, medical anthropologist, program leader, researcher, and educator with more than 18 years of experience in public health, community engagement, research, and program implementation.",
         0, pages_core.home(0),
         extra_ld=jsonld(PERSON) + jsonld(SERVICE),
@@ -96,8 +95,8 @@ def main():
     # About
     add_page(
         "about/index.html", "/about/",
-        "About | Dr. Fayana Richards, MPH, PMP",
-        "Professional biography, philosophy, leadership approach, research perspective, education, and credentials of Dr. Fayana Richards, public health strategist and medical anthropologist.",
+        "About | Fayana Richards, PhD, MPH, PMP",
+        "Professional biography, philosophy, leadership approach, research perspective, education, and credentials of Fayana Richards, PhD, public health strategist and medical anthropologist.",
         1, pages_core.about(1),
         trail=[("Home", "/"), ("About", None)],
         extra_ld=jsonld(breadcrumb_ld([("Home", "/"), ("About", "/about/")])),
@@ -106,7 +105,7 @@ def main():
     # Program leadership
     add_page(
         "program-leadership/index.html", "/program-leadership/",
-        "Program and Project Leadership | Dr. Fayana Richards, MPH, PMP",
+        "Program and Project Leadership | Fayana Richards, PhD, MPH, PMP",
         "How Fayana Richards plans, scopes, coordinates, and monitors complex public health programs — from risk and issue management to partnerships, performance, and team development.",
         1, pages_core.leadership(1),
         trail=[("Home", "/"), ("Program and Project Leadership", None)],
@@ -116,7 +115,7 @@ def main():
     # Selected work
     add_page(
         "work/index.html", "/work/",
-        "Selected Work | Dr. Fayana Richards, MPH, PMP",
+        "Selected Work | Fayana Richards, PhD, MPH, PMP",
         "Case studies in public health consulting, community-engaged research, program design, curriculum development, research coordination, and science communication.",
         1, pages_work.work_index(1),
         trail=[("Home", "/"), ("Selected Work", None)],
@@ -128,7 +127,7 @@ def main():
         sitepath = f"/work/{cs['slug']}/"
         add_page(
             f"work/{cs['slug']}/index.html", sitepath,
-            f"{cs['title']} | Dr. Fayana Richards, MPH, PMP",
+            f"{cs['title']} | Fayana Richards, PhD, MPH, PMP",
             cs["summary"],
             2, pages_work.case_study(cs, 2),
             active="/work/",
@@ -139,8 +138,8 @@ def main():
     # Experience
     add_page(
         "experience/index.html", "/experience/",
-        "Experience | Dr. Fayana Richards, MPH, PMP",
-        "The professional experience of Dr. Fayana Richards across public health consulting, higher education, research, community engagement, and science communication.",
+        "Experience | Fayana Richards, PhD, MPH, PMP",
+        "The professional experience of Fayana Richards, PhD across public health consulting, higher education, research, community engagement, and science communication.",
         1, pages_core.experience(1),
         trail=[("Home", "/"), ("Experience", None)],
         extra_ld=jsonld(breadcrumb_ld([("Home", "/"), ("Experience", "/experience/")])),
@@ -149,7 +148,7 @@ def main():
     # Research and writing
     add_page(
         "research-writing/index.html", "/research-writing/",
-        "Research and Writing | Dr. Fayana Richards, MPH, PMP",
+        "Research and Writing | Fayana Richards, PhD, MPH, PMP",
         "Research interests, methods, publications, and public scholarship addressing aging, caregiving, chronic illness, race and health, and the social conditions shaping health outcomes.",
         1, pages_other.research(1),
         trail=[("Home", "/"), ("Research and Writing", None)],
@@ -159,8 +158,8 @@ def main():
     # Teaching and facilitation
     add_page(
         "teaching-facilitation/index.html", "/teaching-facilitation/",
-        "Teaching and Facilitation | Dr. Fayana Richards, MPH, PMP",
-        "University teaching, curriculum development, workshop facilitation, virtual learning, mentoring, and professional development programs led by Dr. Fayana Richards.",
+        "Teaching and Facilitation | Fayana Richards, PhD, MPH, PMP",
+        "University teaching, curriculum development, workshop facilitation, virtual learning, mentoring, and professional development programs led by Fayana Richards, PhD.",
         1, pages_other.teaching(1),
         trail=[("Home", "/"), ("Teaching and Facilitation", None)],
         extra_ld=jsonld(breadcrumb_ld([("Home", "/"), ("Teaching and Facilitation", "/teaching-facilitation/")])),
@@ -169,8 +168,8 @@ def main():
     # Speaking
     add_page(
         "speaking/index.html", "/speaking/",
-        "Speaking | Dr. Fayana Richards, MPH, PMP",
-        "Conference presentations, invited lectures, workshops, webinars, and podcast work by Dr. Fayana Richards. Speaking and facilitation invitations are welcome.",
+        "Speaking | Fayana Richards, PhD, MPH, PMP",
+        "Conference presentations, invited lectures, workshops, webinars, and podcast work by Fayana Richards, PhD. Speaking and facilitation invitations are welcome.",
         1, pages_other.speaking(1),
         active="/teaching-facilitation/",
         trail=[("Home", "/"), ("Speaking", None)],
@@ -180,8 +179,8 @@ def main():
     # Résumé
     add_page(
         "resume/index.html", "/resume/",
-        "Résumé | Dr. Fayana Richards, MPH, PMP",
-        "Download the résumé of Dr. Fayana Richards, public health program strategy and operations leader and medical anthropologist, or review her experience and credentials.",
+        "Résumé | Fayana Richards, PhD, MPH, PMP",
+        "Download the résumé of Fayana Richards, PhD, public health program strategy and operations leader and medical anthropologist, or review her experience and credentials.",
         1, pages_other.resume(1),
         trail=[("Home", "/"), ("Résumé", None)],
         extra_ld=jsonld(breadcrumb_ld([("Home", "/"), ("Résumé", "/resume/")])),
@@ -190,8 +189,8 @@ def main():
     # Contact
     add_page(
         "contact/index.html", "/contact/",
-        "Contact | Dr. Fayana Richards, MPH, PMP",
-        "Contact Dr. Fayana Richards about program leadership, strategic initiatives, research collaboration, academic programming, facilitation, or speaking opportunities.",
+        "Contact | Fayana Richards, PhD, MPH, PMP",
+        "Contact Fayana Richards, PhD about program leadership, strategic initiatives, research collaboration, academic programming, facilitation, or speaking opportunities.",
         1, pages_other.contact(1),
         trail=[("Home", "/"), ("Contact", None)],
         extra_ld=jsonld(breadcrumb_ld([("Home", "/"), ("Contact", "/contact/")])),
@@ -200,7 +199,7 @@ def main():
     # Accessibility and privacy
     add_page(
         "accessibility/index.html", "/accessibility/",
-        "Accessibility Statement | Dr. Fayana Richards, MPH, PMP",
+        "Accessibility Statement | Fayana Richards, PhD, MPH, PMP",
         "The accessibility commitments of this website, designed to conform to WCAG 2.2 Level AA, and how to report an accessibility barrier.",
         1, pages_other.accessibility_page(1),
         active="/_none_/",
@@ -209,7 +208,7 @@ def main():
     )
     add_page(
         "privacy/index.html", "/privacy/",
-        "Privacy Statement | Dr. Fayana Richards, MPH, PMP",
+        "Privacy Statement | Fayana Richards, PhD, MPH, PMP",
         "How this website handles contact form submissions and visitor information.",
         1, pages_other.privacy_page(1),
         active="/_none_/",
@@ -219,7 +218,7 @@ def main():
 
     # 404 (root-level file; not in sitemap)
     html_404 = page(
-        "Page Not Found | Dr. Fayana Richards, MPH, PMP",
+        "Page Not Found | Fayana Richards, PhD, MPH, PMP",
         "The requested page could not be found.",
         "/404.html", 0, pages_other.not_found(0), active_path="/_none_/",
     )

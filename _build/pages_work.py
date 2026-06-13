@@ -7,6 +7,8 @@ PENDING_NOTE = "Verified outcome information will be added after review of appro
 CASE_STUDIES = [
     {
         "slug": "public-health-consulting",
+        "banner_img": "/assets/img/banner-mphi.jpg",
+        "banner_alt": "Michigan State Capitol building at night, reflecting public sector health work",
         "title": "Public Health Consulting and Program Coordination",
         "org": "Michigan Public Health Institute",
         "role": "Senior Public Health Consultant",
@@ -32,6 +34,8 @@ CASE_STUDIES = [
     },
     {
         "slug": "aging-caregiving-research",
+        "banner_img": None,
+        "banner_alt": None,
         "title": "Community-Engaged Research on Aging, Caregiving, and Chronic Illness",
         "org": "Michigan State University",
         "role": "Doctoral Researcher",
@@ -57,6 +61,8 @@ CASE_STUDIES = [
     },
     {
         "slug": "research-development-program",
+        "banner_img": "/assets/img/banner-umass.jpg",
+        "banner_alt": "Academic library stacks representing research, scholarship, and knowledge work",
         "title": "Research and Professional Development Program for Underrepresented Students",
         "org": "University of Massachusetts Amherst",
         "role": "Post-Doctoral Research Associate",
@@ -82,6 +88,8 @@ CASE_STUDIES = [
     },
     {
         "slug": "curriculum-development",
+        "banner_img": "/assets/img/banner-memphis.jpg",
+        "banner_alt": "Empty university classroom representing higher education and curriculum development",
         "title": "Public Health and Medical Anthropology Curriculum Development",
         "org": "University of Memphis",
         "role": "Assistant Professor of Medical Anthropology",
@@ -107,6 +115,8 @@ CASE_STUDIES = [
     },
     {
         "slug": "research-project-coordination",
+        "banner_img": "/assets/img/banner-arizona.jpg",
+        "banner_alt": "Sonoran desert landscape representing fieldwork and community-based research in Arizona",
         "title": "Federally Funded Research Project Coordination",
         "org": "University of Arizona",
         "role": "Project Coordinator",
@@ -132,6 +142,8 @@ CASE_STUDIES = [
     },
     {
         "slug": "science-communication",
+        "banner_img": "/assets/img/banner-science.jpg",
+        "banner_alt": "Studio microphone representing science communication and audio journalism",
         "title": "Science Journalism and Research Translation",
         "org": "Science Magazine",
         "role": "Editorial Intern",
@@ -234,6 +246,20 @@ def case_study(cs, depth):
     resp = "".join(f"          <li>{x}</li>\n" for x in cs["responsibilities"])
     deliv = "".join(f"          <li>{d}</li>\n" for d in cs["deliverables"])
     tags = "".join(f"<li>{t}</li>" for t in cs["tag_labels"])
+    # Case-study banner image (contextual/environmental only; apply warm treatment)
+    if cs.get("banner_img"):
+        banner_html = f"""  <!-- BANNER: case-banner-{cs['slug']} -->
+  <div class="case-banner">
+    <img src="{r(cs['banner_img'])}"
+         alt="{cs['banner_alt']}"
+         class="photo-warm"
+         width="1200" height="400"
+         loading="lazy"
+         onerror="this.parentElement.style.display='none'">
+  </div>
+"""
+    else:
+        banner_html = f"  <!-- BANNER: case-banner-{cs['slug']} — no image assigned -->\n"
 
     if cs["results"]:
         results_html = "<ul>\n" + "".join(f"          <li>{x}</li>\n" for x in cs["results"]) + "        </ul>"
@@ -250,7 +276,7 @@ def case_study(cs, depth):
           <p>{cs['confidentiality']}</p>
         </div>"""
 
-    return f"""  <section class="case-header">
+    return f"""{banner_html}  <section class="case-header">
     <div class="container">
       <span class="eyebrow">Case Study</span>
       <h1>{cs['title']}</h1>

@@ -127,13 +127,16 @@ def teaching(depth):
     <div class="container split">
       <div>
         <h2 id="facilitation-heading">Workshop Facilitation and Professional Learning</h2>
-        <!-- PLACEHOLDER: speaking-photo
-             Drop the approved photo at /assets/img/PLACEHOLDER-speaking.jpg, then replace the
-             figure below with:
-             <figure><img src="{r('/assets/img/PLACEHOLDER-speaking.jpg')}" alt="Dr. Fayana Richards facilitating a session" width="600" height="400" loading="lazy" decoding="async" style="border-radius: var(--radius);"></figure> -->
-        <figure class="photo-placeholder">
-          <span>Speaking / facilitation photo<br>/assets/img/PLACEHOLDER-speaking.jpg</span>
+        <!-- SPEAKING PHOTO: teaching-page — drop photo at /assets/img/speaking.jpg -->
+        <figure class="speaking-photo-figure">
+          <img src="{r('/assets/img/speaking.jpg')}"
+               alt="Fayana Richards facilitating a workshop or professional learning session"
+               class="photo-warm speaking-photo"
+               width="800" height="533"
+               loading="lazy"
+               onerror="this.closest('figure').style.display='none'">
         </figure>
+        <!-- PLACEHOLDER: speaking-photo-2 — second facilitation photo at /assets/img/PLACEHOLDER-speaking-2.jpg -->
         <p>At the Michigan Public Health Institute, Fayana designed and facilitated workshops for professional audiences, including virtual sessions addressing racism, oppression, health disparities, and related public health issues. Her facilitation practice is inclusive and community-centered, and she is trained in Technology of Participation strategic planning and facilitation methods (Institute of Cultural Affairs, 2021).</p>
         <p>At the University of Massachusetts Amherst, she helped develop a research and professional development program for students from underrepresented backgrounds, coordinating learning activities across faculty, staff, students, and community partners.</p>
       </div>
@@ -221,6 +224,15 @@ def speaking(depth):
       <div class="card-grid card-grid-2">
 {cats_html}
       </div>
+      <!-- SPEAKING PHOTO: speaking-page — drop photo at /assets/img/speaking.jpg -->
+      <figure class="speaking-photo-figure" style="margin-top: var(--space-6);">
+        <img src="{r('/assets/img/speaking.jpg')}"
+             alt="Fayana Richards presenting at a public health conference or professional event"
+             class="photo-warm speaking-photo"
+             width="800" height="533"
+             loading="lazy"
+             onerror="this.closest('figure').style.display='none'">
+      </figure>
       <div class="empty-state" style="margin-top: var(--space-6);">
         <p>A verified list of presentations, with titles, events, host organizations, and dates, is being prepared for this website. A complete curriculum vitae is available upon request.</p>
       </div>
@@ -247,7 +259,7 @@ def resume(depth):
     <div class="container">
       <span class="eyebrow">Résumé</span>
       <h1>Résumé</h1>
-      <p class="lede section-intro">Dr. Fayana Richards, MPH, PMP, is a public health program strategy and operations leader and medical anthropologist with more than 18 years of experience across consulting, research, higher education, community engagement, and professional learning. She holds a PhD in Medical Anthropology and an MPH from Michigan State University and the Project Management Professional credential from the Project Management Institute.</p>
+      <p class="lede section-intro">Fayana Richards, PhD, MPH, PMP, is a public health program strategy and operations leader and medical anthropologist with more than 18 years of experience across consulting, research, higher education, community engagement, and professional learning. She holds a PhD in Medical Anthropology and an MPH from Michigan State University and the Project Management Professional credential from the Project Management Institute.</p>
     </div>
   </section>
 
@@ -303,8 +315,8 @@ def resume(depth):
   <section class="cta-band">
     <div class="container">
       <div>
-        <h2>Request the Résumé or Curriculum Vitae</h2>
-        <p>Both documents are available upon request while download files are finalized.</p>
+        <h2>Request the Curriculum Vitae</h2>
+        <p>A complete curriculum vitae is available upon request.</p>
       </div>
       <div class="cta-actions">
         <a class="btn btn-light" href="{r('/contact/')}">Contact Fayana</a>

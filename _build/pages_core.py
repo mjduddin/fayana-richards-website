@@ -108,22 +108,31 @@ def home(depth):
 
     return f"""  <section class="hero">
     <div class="container hero-grid">
-      <div>
-        <span class="eyebrow">Dr. Fayana Richards, MPH, PMP</span>
-        <h1>Public Health Program Strategy, Operations, and Leadership</h1>
-        <p class="lede">Fayana Richards is a public health strategist, medical anthropologist, and program leader with more than 18 years of experience across consulting, research, higher education, community engagement, and professional learning.</p>
+      <div class="hero-left">
+        <span class="hero-eyebrow caps-label">Public Health Strategist &middot; Medical Anthropologist &middot; Program Leader</span>
+        <h1 class="hero-name">Fayana Richards,<br>PhD, MPH, PMP</h1>
+        <p class="hero-title">18+ years translating research into programs, policy, and people-centered strategy.</p>
+        <p class="lede hero-lede">Fayana Richards is a public health strategist, medical anthropologist, and program leader with more than 18 years of experience across consulting, research, higher education, community engagement, and professional learning.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="{r('/work/')}">View Selected Work</a>
           <a class="btn btn-secondary" href="{r('/program-leadership/')}">Review Program Leadership</a>
           <a class="text-link" href="{r('/resume/')}">Download Résumé</a>
         </div>
       </div>
-      <div class="hero-figure">
-        <!-- PLACEHOLDER: headshot — drop the approved photo at /assets/img/headshot.jpg.
-             The FR monogram below is a fallback that displays only while the image is missing. -->
+      <div class="hero-right">
+        <!-- HEADSHOT: exempt from warm filter — drop approved photo at /assets/img/headshot.jpg -->
         <div class="portrait-frame">
-          <img src="{r('/assets/img/headshot.jpg')}" alt="Dr. Fayana Richards" width="280" height="350" fetchpriority="high" decoding="async" onerror="this.classList.add('img-missing')">
+          <img src="{r('/assets/img/headshot.jpg')}" alt="Fayana Richards, PhD, MPH, PMP — public health strategist" width="400" height="500" fetchpriority="high" decoding="async" onerror="this.classList.add('img-missing')">
           <span class="portrait-fallback" aria-hidden="true">FR</span>
+        </div>
+        <div class="open-to-panel" aria-label="Currently open to">
+          <p class="open-to-label caps-label">Currently Open To</p>
+          <ul class="open-to-list">
+            <li>[POSITION PLACEHOLDER 1]</li>
+            <li>[POSITION PLACEHOLDER 2]</li>
+            <li>[POSITION PLACEHOLDER 3]</li>
+            <li>[POSITION PLACEHOLDER 4]</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -239,17 +248,32 @@ def home(depth):
       <div class="section-intro">
         <p>Fayana is open to consulting, speaking, and employment opportunities in the following areas:</p>
       </div>
-      <ul class="tag-list" style="margin-top: var(--space-5);">
-        <li>Senior program leadership</li>
-        <li>Strategic initiatives</li>
-        <li>Public health consulting</li>
-        <li>Research program management</li>
-        <li>Aging and caregiving initiatives</li>
-        <li>Workforce development</li>
-        <li>Academic programming</li>
-        <li>Learning and facilitation</li>
-        <li>Responsible AI applications in public health and program operations</li>
-      </ul>
+      <div class="focus-groups">
+        <div class="focus-group">
+          <h3 class="focus-group-label caps-label">Leadership &amp; Strategy</h3>
+          <ul>
+            <li>Senior program leadership</li>
+            <li>Strategic initiatives</li>
+            <li>Public health consulting</li>
+          </ul>
+        </div>
+        <div class="focus-group">
+          <h3 class="focus-group-label caps-label">Research &amp; Programs</h3>
+          <ul>
+            <li>Research program management</li>
+            <li>Aging and caregiving initiatives</li>
+            <li>Workforce development</li>
+          </ul>
+        </div>
+        <div class="focus-group">
+          <h3 class="focus-group-label caps-label">Learning &amp; AI</h3>
+          <ul>
+            <li>Academic programming</li>
+            <li>Learning and facilitation</li>
+            <li>Responsible AI applications in public health and program operations</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -273,7 +297,7 @@ def about(depth):
     return f"""  <section class="section-tight section-neutral">
     <div class="container">
       <span class="eyebrow">About</span>
-      <h1>About Dr. Fayana Richards</h1>
+      <h1>About Fayana Richards</h1>
       <p class="lede section-intro">Public health strategist, medical anthropologist, program leader, researcher, and educator.</p>
     </div>
   </section>
@@ -282,7 +306,7 @@ def about(depth):
     <div class="container split">
       <div>
         <h2 id="bio-heading">Professional Biography</h2>
-        <p>Dr. Fayana Richards is a public health strategist, medical anthropologist, program leader, researcher, and educator with more than 18 years of experience across public health consulting, higher education, research, community engagement, and professional learning.</p>
+        <p>Fayana Richards, PhD, MPH, PMP, is a public health strategist, medical anthropologist, program leader, researcher, and educator with more than 18 years of experience across public health consulting, higher education, research, community engagement, and professional learning.</p>
         <p>Her work focuses on social and structural determinants of health, aging, caregiving, chronic illness, workforce development, and culturally responsive program design. Across her professional roles, she has planned and monitored projects, developed scopes of work, coordinated cross-functional teams, supported organizational partnerships, facilitated workshops, advised clients and leaders, supervised staff, and translated research findings into practical program decisions.</p>
         <p>From June 2021 to 2025, Fayana served as a Senior Public Health Consultant at the Michigan Public Health Institute. Her work included leading or coordinating multiple public health initiatives, advising on social justice programming, supporting strong partnerships, facilitating virtual learning, developing project plans, monitoring progress, and addressing sensitive implementation concerns.</p>
         <p>Fayana previously served as an Assistant Professor of Medical Anthropology at the University of Memphis and as a Visiting Assistant Professor of Public Health at Hampshire College. Her teaching addressed race, health disparities, applied medical anthropology, and public health. She developed curricula, supported program assessment, contributed to administrative planning, and mentored students in research and community engagement.</p>
