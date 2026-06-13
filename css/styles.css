@@ -179,15 +179,19 @@ img { max-width: 100%; height: auto; display: block; }
 
 .header-inner {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  gap: var(--space-3) var(--space-5);
-  padding-block: var(--space-4);
+  gap: var(--space-3) var(--space-4);
+  padding-block: 0.75rem;
 }
 
 /* Push nav to the right of the wordmark on desktop */
-.header-inner nav { margin-left: auto; }
+.header-inner nav {
+  margin-left: auto;
+  flex-shrink: 0;
+  overflow: hidden;
+}
 
 .wordmark {
   font-family: var(--font-heading);
@@ -195,14 +199,19 @@ img { max-width: 100%; height: auto; display: block; }
   font-size: var(--text-md);
   color: var(--white);
   text-decoration: none;
+  flex-shrink: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .wordmark:hover { color: var(--neutral); }
 .wordmark-credentials { font-weight: 600; font-size: var(--text-sm); letter-spacing: 0.04em; }
 
 .primary-nav {
   display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2) var(--space-4);
+  flex-wrap: nowrap;
+  gap: var(--space-2) var(--space-3);
   list-style: none;
   margin: 0;
   padding: 0;
@@ -214,11 +223,12 @@ img { max-width: 100%; height: auto; display: block; }
   display: inline-block;
   color: var(--white);
   text-decoration: none;
-  font-size: var(--text-sm);
+  font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.02em;
   padding: var(--space-2) var(--space-1);
   border-bottom: 2px solid transparent;
+  white-space: nowrap;
 }
 .primary-nav a:hover { color: var(--neutral); border-bottom-color: var(--bronze); }
 .primary-nav a[aria-current="page"] { border-bottom-color: var(--bronze); }
@@ -258,12 +268,13 @@ img { max-width: 100%; height: auto; display: block; }
 .menu-toggle-bar::before { top: -6px; }
 .menu-toggle-bar::after { top: 6px; }
 
-@media (max-width: 920px) {
+@media (max-width: 860px) {
   .menu-toggle { display: inline-flex; }
-  .header-inner nav { flex-basis: 100%; }
+  .header-inner nav { flex-basis: 100%; flex-shrink: 1; overflow: visible; }
   .primary-nav {
     display: none;
     flex-direction: column;
+    flex-wrap: nowrap;
     gap: 0;
     padding-block: var(--space-3);
     border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -274,6 +285,7 @@ img { max-width: 100%; height: auto; display: block; }
     padding: var(--space-3) var(--space-2);
     border-bottom: none;
     border-left: 3px solid transparent;
+    white-space: normal;
   }
   .primary-nav a[aria-current="page"],
   .primary-nav a:hover { border-left-color: var(--bronze); border-bottom: none; }
@@ -923,9 +935,14 @@ img { max-width: 100%; height: auto; display: block; }
 
 .case-banner {
   width: 100%;
+  min-height: 220px;
   max-height: 380px;
   overflow: hidden;
   border-radius: var(--radius) var(--radius) 0 0;
+  background: linear-gradient(135deg, var(--aubergine) 0%, var(--plum-mid) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .case-banner img {
   width: 100%;
@@ -934,6 +951,7 @@ img { max-width: 100%; height: auto; display: block; }
   object-position: center;
   display: block;
 }
+.case-banner img.img-missing { display: none; }
 
 /* Speaking / facilitation photo --------------------------------------------------------------- */
 
