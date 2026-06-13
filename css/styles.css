@@ -192,7 +192,7 @@ img { max-width: 100%; height: auto; display: block; }
 /* Push nav to the right of the wordmark on desktop */
 .header-inner nav {
   margin-left: auto;
-  flex-shrink: 0;
+  flex-shrink: 1;
   overflow: hidden;
 }
 
@@ -202,11 +202,8 @@ img { max-width: 100%; height: auto; display: block; }
   font-size: var(--text-md);
   color: var(--white);
   text-decoration: none;
-  flex-shrink: 1;
-  min-width: 0;
+  flex-shrink: 0;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .wordmark:hover { color: var(--neutral); }
 .wordmark-credentials { font-weight: 600; font-size: var(--text-sm); letter-spacing: 0.04em; }
